@@ -1,0 +1,23 @@
+div.container#userbar
+  div.row
+    div.col-sm-12
+      nav#userbar.navbar.navbar-default(role="navigation")
+        div.navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse" data-target="#userbar-collapse")
+            span.sr-only 操作
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="/user") 欢迎, #{user.email}
+        div.collapse.navbar-collapse#userbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li(class=subrole==="promote"?"active":"")
+              a(href="/user/promote") 推广
+            li(class=subrole==="group"?"active":"")
+              a(href="/user/group") 团购 
+            li(class=subrole==="discount"?"active":"")
+              a(href="/user/discount") 折扣 
+            li(class=subrole==="rent"?"active":"")
+              a(href="/user/rent") 租房 
+            li(class=subrole==="ask"?"active":"")
+              a(href="/user/ask") 求购

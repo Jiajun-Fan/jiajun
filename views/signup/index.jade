@@ -1,0 +1,61 @@
+extends ../../layouts/default
+
+block head
+  title 注册 
+
+block body
+  div.container
+    div.centered
+      div.page-header
+        h1 注册会员
+
+  div.container#mysignup
+    div.row
+      div.col-lg-8.col-lg-offset-2
+        form.form-horizontal(role="form", action='/signup', method='POST')
+          div.form-group(class=err_email?"has-error":"")
+            label.col-sm-3.control-label 邮箱地址:
+            div.col-sm-9
+              input.form-control.input-lg(type="email", value=val_email, name="email", id="email" placeholder="Enter your email address")
+            if err_email
+              span.help-inline.col-sm-9.col.col-sm-offset-3 #{err_email}
+          div.form-group(class=err_password?"has-error":"")
+            label.col-sm-3.control-label 密码:
+            div.col-sm-9
+              input.form-control.input-lg(type="password", name="password", id="password" placeholder="Enter your password")
+            if err_password
+              span.help-inline.col-sm-9.col.col-sm-offset-3 #{err_password}
+          div.form-group(class=err_confirm?"has-error":"")
+            label.col-sm-3.control-label 确认您的密码:
+            div.col-sm-9
+              input.form-control.input-lg(type="password", name="confirm", id="confirm" placeholder="Repeat your password")
+            if err_confirm
+              span.help-inline.col-sm-9.col.col-sm-offset-3 #{err_confirm}
+          div.form-group(class=err_agree?"has-error":"")
+            div.col-sm-offset-3.col-sm-9
+              div.checkbox
+                lable 
+                  input(type="checkbox", name="agree")
+                  | 同意
+                  a(data-toggle="modal" data-target="#agreeModal" href="#agreeModal") 用户协议
+              if err_agree
+                span.help-inline #{err_agree}
+          div.form-group
+            div.col-sm-offset-3.col-sm-9
+              div.checkbox
+                button.btn.btn-primary.btn 注册
+
+    div.modal.fade(id="agreeModal", tabindex="-1", role="dialog", aria-labelledby="agreeModalLabel", aria-hidden="true")
+      div.modal-dialog
+        div.modal-content
+          div.modal-header
+            button(type="button", class="close", data-dismiss="modal", aria-hidden="true") &times;
+            h4.modal-title(id="agreeModalLabel") 用户协议
+          div.modal-body
+            div.row
+              div.col-sm-1 1.
+              div.col-sm-11 你的是我的，我的还是我的
+              div.col-sm-1 2.
+              div.col-sm-11 我的是我的，你的也是我的
+          div.modal-footer  
+            button(type="button" class="btn btn-danger" data-dismiss="modal") 关闭 

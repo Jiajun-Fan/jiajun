@@ -1,0 +1,32 @@
+extends ../../layouts/default
+
+block head 
+  title 欢迎，#{user.email}
+
+block body 
+  include ../../layouts/userbar.jade
+
+  div.container
+    div.row
+      div.col-lg-12
+        table.table.table-bordered.table-striped
+          tbody
+            tr
+              th 类别
+              th 数量
+              th 管理
+            tr
+              td 推广
+              td #{outcome.countPromote}
+              td
+                 a.button(href="/user/manage/promote") 管理
+            tr
+              td 团购 
+              td #{outcome.countGroup}
+              td
+                 a.button(href="/user/manage/group") 管理
+            tr
+              td 折扣 
+              td #{outcome.countDiscount}
+              td
+                 a.button(href="/user/manage/discount") 管理

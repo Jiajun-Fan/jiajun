@@ -1,0 +1,62 @@
+doctype 5
+html
+  head
+    block head
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description' content='艾微米 专业微信电商解决方案提供商')
+    meta(name='author' content='Jiajun Fan')
+    link(rel='shortcut icon', href='/assets/ico/favicon.png')
+
+    link(href="/assets/css/bootstrap.css", rel="stylesheet")
+    link(href="/assets/css/font-awesome.min.css", rel="stylesheet")
+    link(href="/assets/css/main.css", rel="stylesheet")
+
+    | <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    | <!--[if lt IE 9]>
+    |  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    |  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    | <![endif]-->
+
+    block neck
+
+  body
+
+    include nav
+
+    block body
+
+    div#f
+      div.container
+        div.row.centered
+          a(href="/")
+            i.fa.fa-envelope
+            i.fa.fa-android
+            i.fa.fa-weibo
+    div.modal.fade(id="myModal", tabindex="-1", role="dialog", aria-labelledby="myModalLabel", aria-hidden="true")
+      div.modal-dialog
+        div.modal-content
+          div.modal-header
+            button(type="button", class="close", data-dismiss="modal", aria-hidden="true") &times;
+            h4.modal-title(id="myModalLabel") 联系我们
+          div.modal-body
+            div.row.centered
+              p 我们 7x24 在线，请随时联系我们
+              p 
+                | 浙江省海宁市某地
+                br 
+                中国
+                br
+                | +86 573 8*** ****
+                br
+                | service@aiweimi.com
+          div.modal-footer  
+            button(type="button" class="btn btn-danger" data-dismiss="modal") 关闭 
+
+  script(src="https://code.jquery.com/jquery-1.10.2.min.js")
+  script(src="/assets/js/bootstrap.min.js")
+
+  block foot
+

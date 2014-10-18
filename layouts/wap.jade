@@ -1,0 +1,70 @@
+doctype 5
+html
+  head
+    block head
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description' content='艾微米 专业微信电商解决方案提供商')
+    meta(name='author' content='Jiajun Fan')
+    link(rel='shortcut icon', href='/assets/ico/favicon.png')
+
+    
+    link(href="/assets/css/bootstrap.css", rel="stylesheet")
+    link(href="/wap/css/bootflat.min.css", rel="stylesheet")
+    link(href="/wap/css/wap.css", rel="stylesheet")
+
+    | <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    | <!--[if lt IE 9]>
+    |  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    |  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    | <![endif]-->
+
+    block neck
+
+  body
+
+    div.navbar.navbar-default.navbar-fixed-top
+      div.container
+        div.navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="/") 
+            | L
+            i.fa.fa-circle
+            | veWeimi
+        div.navbar-collapse.collapse
+          ul.nav.navbar-nav.navbar-right
+            li(class=role==="index"?"active":"")
+              a(href="/") 首页
+            li(class=role==="product"?"active":"")
+              a(href="/product") 产品
+            li(class=role==="user"?"active":"")
+              a(href="/user") 管理 
+            li(class=role==="blog"?"active":"")
+              a(href="/blog") Blog 
+            if user
+              li  
+                a(href="/logout") 退出 
+            else
+              li.dropdown(class=role==="login"?"active":"") 
+                a.dropdown-toggle(data-toggle="dropdown") 
+                  | 登录 
+                  span.caret
+                ul.dropdown-menu
+                  li
+                    a(href="/signin") 登录 
+                  li
+                    a(href="/signup") 注册
+
+    block body
+
+
+  script(src="https://code.jquery.com/jquery-1.10.2.min.js")
+  script(src="/assets/js/bootstrap.min.js")
+
+  block foot
+

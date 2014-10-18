@@ -1,0 +1,31 @@
+extends ../../layouts/default
+
+block head
+  title 登录
+
+block body
+  div.container
+    div.centered
+      div.page-header
+        h1 登录
+
+  div.container#mysignin
+    div.row
+      div.col-lg-8.col-lg-offset-2
+        form.form-horizontal(role="form", action=retUrl?'/signin?returnUrl='+retUrl:'/signin', method='POST')
+          div.form-group(class=err_email?"has-error":"")
+            label.col-sm-3.control-label 邮箱地址:
+            div.col-sm-9
+              input.form-control.input-lg(type="email", value=val_email, name="email", id="email" placeholder="Enter your email address")
+            if err_email
+              span.help-inline.col-sm-9.col.col-sm-offset-3 #{err_email}
+          div.form-group(class=err_password?"has-error":"")
+            label.col-sm-3.control-label 密码:
+            div.col-sm-9
+              input.form-control.input-lg(type="password", name="password", id="password" placeholder="Enter your password")
+            if err_password
+              span.help-inline.col-sm-9.col.col-sm-offset-3 #{err_password}
+          div.form-group
+            div.col-sm-offset-3.col-sm-9
+              div.checkbox
+                button.btn.btn-primary.btn 登录 

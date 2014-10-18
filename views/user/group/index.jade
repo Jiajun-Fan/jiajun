@@ -1,0 +1,98 @@
+extends ../../../layouts/default
+
+block head
+  title 新建团购 
+
+block neck
+  link(href="/assets/css/bootstrap-datetimepicker.min.css", rel="stylesheet")
+
+block body
+
+  include ../../../layouts/userbar.jade
+
+  div.container
+    div.row
+      div.col-lg-8.col-lg-offset-2
+        form.form-horizontal(role="form", enctype="multipart/form-data", action='/user/group', method='POST')
+          div.form-group(class=err_title?"has-error":"")
+            label.col-sm-2.control-label 标题:
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_title, name="title", placeholder="输入标题")
+            if err_title
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_title}
+          div.form-group(class=err_product?"has-error":"")
+            label.col-sm-2.control-label 产品名称
+              br
+              | 或 店铺名称
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_product, name="product", placeholder="输入产品名称")
+            if err_product
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_product}
+          div.form-group(class=err_address?"has-error":"")
+            label.col-sm-2.control-label 地址:
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_address, name="address", placeholder="输入地址")
+            if err_address
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_address}
+          div.form-group(for="start", class=err_start?"has-error":"")
+            label.col-sm-2.control-label 开始时间:
+            div.col-sm-10.input-group.date.form_date(data-date="", data-date-format="yyyy mm dd", data-link-format="yyyymmdd", data-link-field="start")
+              input.form-control.input-lg(type="text", value="", readonly)
+              span.input-group-addon
+                span.glyphicon.glyphicon-remove
+              span.input-group-addon
+                span.glyphicon.glyphicon-th
+              input(type="hidden", id="start", name="start", value="")
+            if err_start
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_start}
+          div.form-group(for="end", class=err_end?"has-error":"")
+            label.col-sm-2.control-label 结束时间:
+            div.col-sm-10.input-group.date.form_date(data-date="", data-date-format="yyyy mm dd", data-link-format="yyyymmdd", data-link-field="end")
+              input.form-control.input-lg(type="text", value="", readonly)
+              span.input-group-addon
+                span.glyphicon.glyphicon-remove
+              span.input-group-addon
+                span.glyphicon.glyphicon-th
+              input(type="hidden", id="end", name="end", value="")
+            if err_end
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_end}
+          div.form-group(class=err_origin?"has-error":"")
+            label.col-sm-2.control-label 原价:
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_origin, name="origin", placeholder="原价")
+            if err_origin
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_origin}
+          div.form-group(class=err_sale?"has-error":"")
+            label.col-sm-2.control-label 现价:
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_sale, name="sale", placeholder="现价")
+            if err_sale
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_sale}
+          div.form-group(class=err_phone?"has-error":"")
+            label.col-sm-2.control-label 联系电话:
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_phone, name="phone", placeholder="输入联系电话")
+            if err_phone
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_phone}
+          div.form-group(class=err_picture?"has-error":"")
+            label.col-sm-2.control-label 图片 
+            div.col-sm-10
+              input.form-control.input-lg(type="file", value=val_picture, name="picture", placeholder="输入图片url")
+            if err_picture
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_picture}
+          div.form-group(class=err_descript?"has-error":"")
+            label.col-sm-2.control-label 描述:
+            div.col-sm-10
+              textarea.form-control.input-md#mytextarea(name="descript", value=val_descript, placeholder="输入描述")
+            if err_descript
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_descript}
+          div.form-group
+            div.col-sm-offset-2.col-sm-10
+              div.checkbox
+                button.btn.btn-primary.btn 提交 
+ 
+block foot
+  script(src="/assets/js/bootstrap-datetimepicker.min.js")
+  script(src="/assets/js/bootstrap-datetimepicker.zh-CN.js", charset="UTF-8")
+  script.
+    $('.form_date').datetimepicker({language: "zh-CN", weekStart: 1, todayBtn: 1, autoclose: 1, todayHighlight: 1, startView: 2, minView:2, forceParse: 0, showMeridian: 1});

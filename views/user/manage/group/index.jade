@@ -1,0 +1,44 @@
+extends ../../../../layouts/default
+
+block head 
+  title 欢迎，#{user.email}
+
+block body 
+  include ../../../../layouts/userbar.jade
+
+  div.container
+    div.row
+      div.col-lg-12
+        table.table.table-bordered.table-striped
+          tbody
+            tr
+              th 标题 
+              th 店铺或产品 
+              th 售价 
+              th 折扣 
+              th 管理 
+            each val, index in results.data
+              tr
+                td= results.data[index].title
+                td= results.data[index].product
+                td= results.data[index].sale
+                td= (results.data[index].discount * 100).toFixed(0)
+                td
+                  a.button(href="/user/json/group/delete/" + results.data[index].id) 删除
+      div.col-lg-3.col-lg-offset-9
+        ul.pagination
+          if results.pages.hasPrev
+            li
+              a(href="/user/manage/group?page="+(results.pages.current-1)) &laquo;
+          else
+            li.disabled
+              a &laquo;
+          - for (var i=1; i<=results.pages.total; i++)
+            li(class=i===results.pages.current?"active":"")
+              a(href="/user/manage/group?page="+i)= i
+          if results.pages.hasNext
+            li
+              a(href="/user/manage/group?page="+(results.pages.current+1)) &raquo;
+          else
+            li.disabled
+              a &raquo;

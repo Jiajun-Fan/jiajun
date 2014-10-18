@@ -1,0 +1,636 @@
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
+[90mGET / [36m304 [90m686ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m3ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m2ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m1ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m1ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m1ms[0m
+[90mGET / [32m200 [90m122ms - 5.91kb[0m
+[90mGET /assets/css/bootstrap.css [32m200 [90m5ms - 123.02kb[0m
+[90mGET /assets/css/font-awesome.min.css [32m200 [90m1ms - 17.66kb[0m
+[90mGET /assets/css/main.css [32m200 [90m1ms - 6.67kb[0m
+[90mGET /assets/img/p01.png [32m200 [90m1ms - 37.63kb[0m
+[90mGET /assets/img/p03.png [32m200 [90m2ms - 38.26kb[0m
+[90mGET /assets/img/p02.png [32m200 [90m1ms - 59.38kb[0m
+[90mGET /assets/js/bootstrap.min.js [32m200 [90m1ms - 27.18kb[0m
+[90mGET /assets/img/c01.gif [32m200 [90m1ms - 2.91kb[0m
+[90mGET /assets/img/c02.gif [32m200 [90m1ms - 3.15kb[0m
+[90mGET /assets/img/c03.gif [32m200 [90m1ms - 2.44kb[0m
+[90mGET /assets/img/c04.gif [32m200 [90m3ms - 1.59kb[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [32m200 [90m1ms - 43.43kb[0m
+[90mGET /assets/img/c05.gif [32m200 [90m5ms - 2.71kb[0m
+[90mGET /assets/img/header-bg.jpg [32m200 [90m1698ms - 133.22kb[0m
+[90mGET /assets/img/munter.png [32m200 [90m6849ms - 768.62kb[0m
+[90mGET /about.html [33m404 [90m5ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /about.html [33m404 [90m3ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET / [32m200 [90m116ms - 5.88kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m1ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m0ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET / [32m200 [90m175ms - 5.89kb[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET / [32m200 [90m112ms - 5.92kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m2ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m1ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m1ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m1ms[0m
+[90mGET / [32m200 [90m106ms - 5.92kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m4ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m2ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m1ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m101ms - 5.92kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m1ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m1ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m93ms - 5.92kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m3ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m1ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m1ms[0m
+[90mGET /assets/ico/favicon.png [33m404 [90m2ms[0m
+[90mGET / [32m200 [90m96ms - 5.91kb[0m
+[90mGET /assets/css/bootstrap.css [32m200 [90m2ms - 123.02kb[0m
+[90mGET /assets/css/font-awesome.min.css [32m200 [90m1ms - 17.66kb[0m
+[90mGET /assets/css/main.css [32m200 [90m1ms - 6.67kb[0m
+[90mGET /assets/img/p01.png [32m200 [90m7ms - 37.63kb[0m
+[90mGET /assets/img/p02.png [32m200 [90m6ms - 59.38kb[0m
+[90mGET /assets/img/p03.png [32m200 [90m9ms - 38.26kb[0m
+[90mGET /assets/img/c03.gif [32m200 [90m8ms - 2.44kb[0m
+[90mGET /assets/img/c04.gif [32m200 [90m5ms - 1.59kb[0m
+[90mGET /assets/img/c05.gif [32m200 [90m6ms - 2.71kb[0m
+[90mGET /assets/js/bootstrap.min.js [32m200 [90m1ms - 27.18kb[0m
+[90mGET /assets/fonts/fontawesome-webfont.ttf?v=4.0.1 [32m200 [90m700ms - 78.88kb[0m
+[90mGET /assets/img/header-bg.jpg [32m200 [90m1799ms - 133.22kb[0m
+[90mGET /assets/img/c02.gif [32m200 [90m9304ms - 3.15kb[0m
+[90mGET /assets/img/c01.gif [32m200 [90m9305ms - 2.91kb[0m
+[90mGET /assets/img/munter.png [32m200 [90m9305ms - 768.62kb[0m
+[90mGET /assets/ico/favicon.png [33m404 [90m3ms[0m
+[90mGET / [32m200 [90m105ms - 5.91kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m2ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m2ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m2ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m0ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m52ms - 2.04kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET / [32m200 [90m170ms - 5.79kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m1ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m0ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m1ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET / [32m200 [90m107ms - 5.91kb[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET / [36m304 [90m105ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m2ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m0ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m40ms - 1.8kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m44ms - 1.95kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m41ms - 1.95kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m42ms - 1.98kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m50ms - 2.03kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m47ms - 2.43kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m52ms - 2.42kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m46ms - 2.42kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m55ms - 2.45kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m54ms - 2.59kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m59ms - 2.62kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m3ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m2ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m54ms - 2.61kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m202ms - 6.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m0ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m107ms - 5.91kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m1ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m0ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m70ms - 3.45kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m3ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /signup [36m304 [90m74ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET / [32m200 [90m108ms - 5.91kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m0ms[0m
+[90mGET /assets/fonts/fontawesome-webfont.woff?v=4.0.1 [36m304 [90m1ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m2ms[0m
+[90mGET /signup [32m200 [90m76ms - 3.45kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m102ms - 5.91kb[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m0ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m107ms - 5.91kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/img/p01.png [36m304 [90m0ms[0m
+[90mGET /assets/img/p02.png [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/img/c03.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/c02.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/p03.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c01.gif [36m304 [90m1ms[0m
+[90mGET /assets/img/munter.png [36m304 [90m0ms[0m
+[90mGET /assets/img/c05.gif [36m304 [90m0ms[0m
+[90mGET /assets/img/header-bg.jpg [36m304 [90m1ms[0m
+[90mGET /assets/img/c04.gif [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m111ms - 3.45kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m106ms - 3.68kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m83ms - 3.68kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m2ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m81ms - 3.68kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m79ms - 3.68kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m82ms - 3.67kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m79ms - 3.7kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m80ms - 3.73kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m78ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m2ms[0m
+[90mGET /signup [32m200 [90m85ms - 3.74kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m112ms - 3.77kb[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m2ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m106ms - 3.84kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m80ms - 3.84kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m83ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m78ms - 3.75kb[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m87ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m108ms - 5.91kb[0m
+[90mGET /assets/css/bootstrap.css [32m200 [90m2ms - 123.02kb[0m
+[90mGET /assets/css/main.css [32m200 [90m1ms - 6.67kb[0m
+[90mGET /assets/css/font-awesome.min.css [32m200 [90m1ms - 17.66kb[0m
+[90mGET /assets/img/p01.png [32m200 [90m1ms - 37.63kb[0m
+[90mGET /assets/img/p02.png [32m200 [90m4ms - 59.38kb[0m
+[90mGET /assets/img/p03.png [32m200 [90m3ms - 38.26kb[0m
+[90mGET /assets/img/c04.gif [32m200 [90m1ms - 1.59kb[0m
+[90mGET /assets/img/c05.gif [32m200 [90m1ms - 2.71kb[0m
+[90mGET /assets/img/munter.png [32m200 [90m9486ms - 768.62kb[0m
+[90mGET / [32m200 [90m102ms - 5.91kb[0m
+[90mGET /assets/css/bootstrap.css [32m200 [90m1ms - 123.02kb[0m
+[90mGET /assets/css/main.css [32m200 [90m1ms - 6.67kb[0m
+[90mGET /assets/css/font-awesome.min.css [32m200 [90m1ms - 17.66kb[0m
+[90mGET /assets/img/p01.png [32m200 [90m1ms - 37.63kb[0m
+[90mGET /assets/img/p02.png [32m200 [90m5ms - 59.38kb[0m
+[90mGET /assets/img/p03.png [32m200 [90m6ms - 38.26kb[0m
+[90mGET /assets/img/c02.gif [32m200 [90m5ms - 3.15kb[0m
+[90mGET /assets/img/c03.gif [32m200 [90m4ms - 2.44kb[0m
+[90mGET /assets/img/c04.gif [32m200 [90m4ms - 1.59kb[0m
+[90mGET /assets/img/c05.gif [32m200 [90m5ms - 2.71kb[0m
+[90mGET /assets/js/bootstrap.min.js [32m200 [90m1ms - 27.18kb[0m
+[90mGET /assets/fonts/fontawesome-webfont.ttf?v=4.0.1 [32m200 [90m2ms - 78.88kb[0m
+[90mGET /assets/img/header-bg.jpg [32m200 [90m2498ms - 133.22kb[0m
+[90mGET /assets/img/c01.gif [32m200 [90m6896ms - 2.91kb[0m
+[90mGET /assets/img/munter.png [32m200 [90m6897ms - 768.62kb[0m
+[90mGET /assets/ico/favicon.png [33m404 [90m3ms[0m
+[90mGET /signup [32m200 [90m71ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m3ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [32m200 [90m0ms - 27.18kb[0m
+[90mGET /assets/fonts/fontawesome-webfont.ttf?v=4.0.1 [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m128ms - 3.85kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m108ms - 3.86kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+Error
+    at new JS_Parse_Error (/home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:196:18)
+    at js_error (/home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:204:11)
+    at croak (/home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:636:9)
+    at token_error (/home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:644:9)
+    at expect_token (/home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:657:9)
+    at expect (/home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:660:36)
+    at parenthesised (/home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:674:9)
+    at if_ (/home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:927:20)
+    at /home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:764:24
+    at /home/fanjiajun/nodejs/node_modules/jade/node_modules/with/node_modules/uglify-js/lib/parse.js:683:24
+[90mGET /signup [31m500 [90m68ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [32m200 [90m98ms - 3.82kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m89ms - 3.76kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [32m200 [90m92ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m85ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m89ms - 2.78kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m125ms - 3.76kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m114ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m88ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+[90mGET /signup [32m200 [90m92ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [36m304 [90m87ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [36m304 [90m81ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [36m304 [90m93ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [36m304 [90m125ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [36m304 [90m105ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m1ms[0m
+SyntaxError: /home/fanjiajun/nodejs/views/signup/index.jade:18
+    16|         br
+    17|         form.form-horizontal(role="form", action='/signup', method='POST')
+  > 18|           div(class=#{form-email})
+    19|             label.col-sm-3.control-label 邮箱地址:
+    20|             div.col-sm-9
+    21|               input.form-control.input-lg(type="email", id="email" placeholder="Enter your email address")
+
+Unexpected token ILLEGAL
+    at Function (<anonymous>)
+    at assertExpression (/home/fanjiajun/nodejs/node_modules/jade/lib/lexer.js:39:3)
+    at Object.Lexer.attrs (/home/fanjiajun/nodejs/node_modules/jade/lib/lexer.js:593:20)
+    at Object.Lexer.next (/home/fanjiajun/nodejs/node_modules/jade/lib/lexer.js:788:15)
+    at Object.Lexer.lookahead (/home/fanjiajun/nodejs/node_modules/jade/lib/lexer.js:122:46)
+    at Object.Parser.lookahead (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:116:23)
+    at Object.Parser.parseTag (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:618:25)
+    at Object.Parser.parseExpr (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:199:21)
+    at Object.Parser.block (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:593:25)
+    at Object.Parser.tag (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:722:26)
+[90mGET /signup [31m500 [90m12ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+SyntaxError: /home/fanjiajun/nodejs/views/signup/index.jade:18
+    16|       div.col-lg-8.col-lg-offset-2
+    17|         form.form-horizontal(role="form", action='/signup', method='POST')
+  > 18|           div(class=#{form-email})
+    19|             label.col-sm-3.control-label 邮箱地址:
+    20|             div.col-sm-9
+    21|               input.form-control.input-lg(type="email", id="email" placeholder="Enter your email address")
+
+Unexpected token ILLEGAL
+    at Function (<anonymous>)
+    at assertExpression (/home/fanjiajun/nodejs/node_modules/jade/lib/lexer.js:39:3)
+    at Object.Lexer.attrs (/home/fanjiajun/nodejs/node_modules/jade/lib/lexer.js:593:20)
+    at Object.Lexer.next (/home/fanjiajun/nodejs/node_modules/jade/lib/lexer.js:788:15)
+    at Object.Lexer.lookahead (/home/fanjiajun/nodejs/node_modules/jade/lib/lexer.js:122:46)
+    at Object.Parser.lookahead (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:116:23)
+    at Object.Parser.parseTag (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:618:25)
+    at Object.Parser.parseExpr (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:199:21)
+    at Object.Parser.block (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:593:25)
+    at Object.Parser.tag (/home/fanjiajun/nodejs/node_modules/jade/lib/parser.js:722:26)
+[90mGET /signup [31m500 [90m7ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [32m200 [90m95ms - 3.75kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [32m200 [90m61ms - 2.72kb[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [36m304 [90m57ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [36m304 [90m65ms[0m
+Error: ENOENT, open '/home/fanjiajun/nodejs/assets/ico/favicon.png'
+[90mGET /signup [36m304 [90m53ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [36m304 [90m64ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m0ms[0m
+[90mGET /assets/css/main.css [36m304 [90m1ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m0ms[0m
+[90mGET /signup [36m304 [90m62ms[0m
+[90mGET /assets/css/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /assets/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /assets/css/main.css [36m304 [90m0ms[0m
+[90mGET /assets/js/bootstrap.min.js [36m304 [90m2ms[0m
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0

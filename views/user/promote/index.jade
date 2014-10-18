@@ -1,0 +1,49 @@
+extends ../../../layouts/default
+
+block head
+  title 新建推广 
+
+block body
+
+  include ../../../layouts/userbar.jade
+
+  div.container
+    div.row
+      div.col-lg-8.col-lg-offset-2
+        form.form-horizontal(role="form", action='/user/promote', method='POST')
+          div.form-group(class=err_title?"has-error":"")
+            label.col-sm-2.control-label 标题:
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_title, name="title", placeholder="输入标题")
+            if err_title
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_title}
+          div.form-group(class=err_contact?"has-error":"")
+            label.col-sm-2.control-label 联系人:
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_contact, name="contact", placeholder="输入联系人")
+            if err_contact
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_contact}
+          div.form-group(class=err_phone?"has-error":"")
+            label.col-sm-2.control-label 联系电话:
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_phone, name="phone", placeholder="输入联系电话")
+            if err_phone
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_phone}
+          div.form-group(class=err_picture?"has-error":"")
+            label.col-sm-2.control-label 图片地址 
+              br
+              | (可选):
+            div.col-sm-10
+              input.form-control.input-lg(type="", value=val_picture, name="picture", placeholder="输入图片url")
+            if err_picture
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_picture}
+          div.form-group(class=err_descript?"has-error":"")
+            label.col-sm-2.control-label 描述:
+            div.col-sm-10
+              textarea.form-control.input-md#mytextarea(name="descript", value=val_descript, placeholder="输入描述")
+            if err_descript
+              span.help-inline.col-sm-10.col.col-sm-offset-2 #{err_descript}
+          div.form-group
+            div.col-sm-offset-2.col-sm-10
+              div.checkbox
+                button.btn.btn-primary.btn 提交 

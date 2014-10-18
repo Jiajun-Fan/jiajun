@@ -1,0 +1,39 @@
+div.navbar.navbar-inverse.navbar-fixed-top
+  div.container
+    div.navbar-header
+      button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href="/") 
+        | L
+        i.fa.fa-circle
+        | veWeimi
+    div.navbar-collapse.collapse
+      ul.nav.navbar-nav.navbar-right
+        li(class=role==="index"?"active":"")
+          a(href="/") 首页
+        li(class=role==="product"?"active":"")
+          a(href="/product") 产品
+        li(class=role==="user"?"active":"")
+          a(href="/user") 管理 
+        li(class=role==="blog"?"active":"")
+          a(href="/blog") Blog 
+        if user
+          li  
+            a(href="/logout") 退出 
+        else
+          li.dropdown(class=role==="login"?"active":"") 
+            a.dropdown-toggle(data-toggle="dropdown") 
+              | 登录 
+              span.caret
+            ul.dropdown-menu
+              li
+                a(href="/signin") 登录 
+              li
+                a(href="/signup") 注册
+
+        li
+          a(data-toggle="modal" data-target="#myModal" href="#myModal")
+            i.fa.fa-envelope-o
+
